@@ -6,6 +6,7 @@ export default class Form extends Component {
     super()
     this.container = document.createElement('div')
   }
+  // static 是定义在类上 可以通过 类名.xxx的方式获取
   render() {
     let node = <div>
       用户名：<input type="text" name='username' />
