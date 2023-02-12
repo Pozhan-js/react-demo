@@ -9,14 +9,14 @@ export default class Login extends Component {
           用户名:
           <input
             type='text'
-            value={this.props.state.username}
+            value={this.props.username}
             onChange={this.props.handleChange('username')}
           />
           <br />
           密码:
           <input
             type='password'
-            value={this.props.state.password}
+            value={this.props.password}
             onChange={this.props.handleChange('password')}
           />
           <br />
